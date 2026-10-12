@@ -1,0 +1,37 @@
+﻿# Virtual machine files
+*.vmdk
+*.vdi
+*.vhd
+*.vhdx
+*.vma
+*.ova
+*.ovf
+*.vmem
+*.vmsn
+*.vmss
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+secrets/
+credentials/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local editor settings
+.vscode/
+.idea/
+
+docs/screenshot-inventory.csv
